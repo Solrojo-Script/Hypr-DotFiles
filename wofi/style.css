@@ -1,7 +1,7 @@
 window {
     margin: 0;
     padding: 0;
-    border: 2px solid #cba6f7;
+    border: 2px solid #bd93f9;
     background-color: #1e1e2e;
     font-family: "Jetbrains Mono", monospace;
     font-weight: bold;
@@ -12,7 +12,7 @@ window {
 #input {
     margin: 10px;
     padding: 8px 12px;
-    border: 2px solid #cba6f7;
+    border: 2px solid #bd93f9;
     border-radius: 6px;
     background-color: #1e1e2e;
     color: #cdd6f4;
@@ -29,6 +29,6 @@ window {
 }
 
 #entry:selected {
-    background-color: #cba6f7;
+    background-color: #bd93f9;
     color: #1e1e2e;
 }
