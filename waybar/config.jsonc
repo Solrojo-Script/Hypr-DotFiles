@@ -3,8 +3,8 @@
     "layer": "bottom",
     "position": "top",
     "height": 0,
-    "modules-left": [ "hyprland/workspaces", "clock" ],
-    "modules-center": [ "hyprland/window" ],
+    "modules-left": [ "hyprland/workspaces", "hyprland/window" ],
+    "modules-center": [ "clock" ],
     "modules-right": [ "pulseaudio#microphone", "wireplumber", "backlight", "network", "battery", "bluetooth", "custom/power" ],
     "hyprland/window":{
 	"format": "{}"
@@ -26,14 +26,38 @@
 	"on-click": ""
     },
 
-    "hyprland/window": {
-        "format": "<span color='#cba6f7'></span> <span color='#cdd6f4'> {} </span>",
-        "rewrite": {
-            "": "Desktop"
-      },
-        "max-length": 20,
-        "tooltip": false
+    "hyprland/workspaces": {
+    	"all-outputs": true,
+    	"format": " {icon} ",
+	"on-click": "activate"
     },
+
+    "hyprland/window": {
+	"format": "{initialClass}",
+    	"icon": true,
+        "rewrite": {
+            "": " Arch ",
+	    "kitty": "Kitty ",
+	    "zen": "Zen ",
+	    "(.*)Nautilus": "Nautilus ",
+	    "(.*)gedit": "Gedit ",
+	    "(.*)KeepassXC": "KeepassXC ",
+	    "(.*)Lutris": "Lutris ",
+	    "(.*)Wireshark": "Wireshark ",
+	    "(.*)pavucontrol": "Pavucontrol ",
+	    "blueman-manager": "Blueman ",
+	    "Popsicle": "Popsicle "
+      },
+       "tooltip": false
+    },
+
+  "pulseaudio#microphone": {
+        "format": "{format_source}",
+        "format-source": "󰍬",
+        "format-source-muted": "󰍭",
+	"tooltip":false,
+	"on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
+   },
 
     "backlight": {
         "format": "{percent}% {icon}",
@@ -75,15 +99,7 @@
         "format-source-muted": "",
         "on-click": "pavucontrol",
         "format-icons": { "headphone": "", "hands-free": "", "headset": "", "phone": "", "portable": "", "car": "", "default": ["", "", ""] }
-   },
-
-    "pulseaudio#microphone": {
-        "format": "{format_source}",
-        "format-source": "󰍬",
-        "format-source-muted": "󰍭",
-	"tooltip":false,
-	"on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
-   },
+   }, 
 
     "bluetooth": {
         "format": "󰂯",
