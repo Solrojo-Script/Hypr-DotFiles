@@ -50,25 +50,29 @@ Before executing the install script, please make sure you have the following app
 
 # SCREENSHOTS 👀
 ### Desktop
-<img width="2560" height="1600" alt="2025-08-17-011423_hyprshot" src="https://github.com/user-attachments/assets/604e859d-d534-45dc-8cba-23f20879e45c" />
+
+<img width="2560" height="1600" alt="2025-09-07-170135_hyprshot" src="https://github.com/user-attachments/assets/a5889eb7-d3a9-4411-b27e-f1ca8fe9007d" />
+
 
 ### Kitty Terminal
-<img width="2560" height="1600" alt="2025-08-17-011605_hyprshot" src="https://github.com/user-attachments/assets/c9d00777-e0c1-4bbb-989f-79bee713422b" />
+<img width="2560" height="1600" alt="2025-09-03-221223_hyprshot" src="https://github.com/user-attachments/assets/037b78b6-9e14-41ef-929c-94ce63ed6374" />
+
 
 ### Nautilus + Folder Icons
-<img width="2560" height="1600" alt="2025-08-17-011838_hyprshot" src="https://github.com/user-attachments/assets/2a68c96a-8cb9-4004-af13-fefb782000ae" />
+<img width="2560" height="1600" alt="2025-09-07-165933_hyprshot" src="https://github.com/user-attachments/assets/b343e6c6-a8e7-4ed8-8dd1-359dc9ee2393" />
 
 ### Wlogout
-<img width="2560" height="1600" alt="2025-08-17-011848_hyprshot" src="https://github.com/user-attachments/assets/69c60217-e49d-4526-8698-b80625e5ae8b" />
+<img width="2560" height="1600" alt="2025-09-07-170323_hyprshot" src="https://github.com/user-attachments/assets/7bc464c0-b7c7-4269-8473-0f4aa8a50f7f" />
 
 ### Wofi
-<img width="2560" height="1600" alt="2025-08-17-012006_hyprshot" src="https://github.com/user-attachments/assets/368fa25a-6f18-46a9-b37b-b4e3142689b3" />
+<img width="2560" height="1600" alt="2025-09-07-165938_hyprshot" src="https://github.com/user-attachments/assets/aa021a98-46a7-4c51-9ad2-9468be2c4285" />
 
 ### More Desktop !
-<img width="2560" height="1600" alt="2025-08-17-012032_hyprshot" src="https://github.com/user-attachments/assets/2ed05af8-8e89-4682-b3d3-20f064fda2ce" />
+
+<img width="2560" height="1600" alt="2025-09-07-170120_hyprshot" src="https://github.com/user-attachments/assets/bb717d1d-4177-4b74-bb8c-549a38ea29e4" />
 
 
-<img width="2560" height="1600" alt="2025-08-17-013631_hyprshot" src="https://github.com/user-attachments/assets/b024b985-3b01-4fd9-9ed9-3ecdf3a1462c" />
+<img width="2560" height="1600" alt="2025-09-07-165839_hyprshot" src="https://github.com/user-attachments/assets/27b1a4de-43d2-4171-832a-6cdb586cdc3e" />
 
 
-<img width="2560" height="1600" alt="2025-08-17-012418_hyprshot" src="https://github.com/user-attachments/assets/b17f9101-1e37-4cf6-9930-b4deb746b9e0" />
+<img width="2560" height="1600" alt="2025-09-07-170725_hyprshot" src="https://github.com/user-attachments/assets/6cc9367a-c38f-490d-acaa-647b8e7302e6" />
