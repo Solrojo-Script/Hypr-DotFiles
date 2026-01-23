@@ -53,6 +53,9 @@ Before executing the install script, please make sure you have the following app
 
 <img width="2560" height="1600" alt="2025-09-07-170135_hyprshot" src="https://github.com/user-attachments/assets/a5889eb7-d3a9-4411-b27e-f1ca8fe9007d" />
 
+### Alacritty Terminal
+<img width="2560" height="1600" alt="2026-01-23-204049_hyprshot" src="https://github.com/user-attachments/assets/d78678f4-66bf-4512-82fc-f6d530c8d15e" />
+
 
 ### Kitty Terminal
 <img width="2560" height="1600" alt="2025-09-03-221223_hyprshot" src="https://github.com/user-attachments/assets/037b78b6-9e14-41ef-929c-94ce63ed6374" />
