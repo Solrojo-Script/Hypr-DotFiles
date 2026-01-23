@@ -19,7 +19,7 @@ Before executing the install script, please make sure you have the following app
 >
 > wofi
 >
-> kitty
+> alacritty
 >
 > blueman
 >
