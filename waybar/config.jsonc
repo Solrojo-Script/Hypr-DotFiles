@@ -1,4 +1,4 @@
-// -*- mode: jsonc -*-
+// /* ---- 🐧 https://github.com/Solrojo-Script 🐧 ---- */ 
 {
     "layer": "bottom",
     "position": "top",
@@ -37,16 +37,20 @@
     	"icon": true,
         "rewrite": {
             "": " Arch ",
-	    "kitty": "Kitty ",
-	    "zen": "Zen ",
+	    "Alacritty": "Alacritty ",
+	    "Brave-browser": "Brave ",
 	    "(.*)Nautilus": "Nautilus ",
-	    "(.*)gedit": "Gedit ",
+	    "(.*)TextEditor": "Notes ",
 	    "(.*)KeepassXC": "KeepassXC ",
 	    "(.*)Lutris": "Lutris ",
 	    "(.*)Wireshark": "Wireshark ",
 	    "(.*)pavucontrol": "Pavucontrol ",
 	    "blueman-manager": "Blueman ",
-	    "Popsicle": "Popsicle "
+	    "Popsicle": "Popsicle ",
+	    "Virtualbox(.*)": "Virtualbox ",
+	    "(.*)ONLYOFFICE": "OnlyOffice ",
+	    "(.*)Remmina": "Remmina ",
+	    "(.*)qBittorrent": "qBittorrent ",
       },
        "tooltip": false
     },
@@ -66,14 +70,13 @@
     },
 	
     "network": {
-	"markup": "pango",
         "format-wifi": "{icon}  {essid} {ipaddr}",
         "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
         "format-ethernet": "{ipaddr}/{cidr} 󰈀",
         "format-linked": "{ifname} (No IP) ⚠",
-        "format-disconnected": "󰤫",
+        "format-disconnected": "󰤫 ",
 	"tooltip": false,
-	"on-click": "kitty -e 'nmtui'"
+	"on-click": "alacritty -e 'nmtui'"
     },
 
     "battery": {
