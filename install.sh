@@ -18,10 +18,10 @@ if [ ! -d ~/.config/hypr ]; then
 fi
 cp -r hypr/* ~/.config/hypr/
 
-if [ ! -d ~/.config/kitty ]; then
-	mkdir  ~/.config/kitty
+if [ ! -d ~/.config/alacritty ]; then
+	mkdir  ~/.config/alacritty
 fi
-cp -r kitty/* ~/.config/kitty/
+cp -r alacritty/* ~/.config/alacritty/
 
 mv wallpaper ~/.config/
 
